@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">              
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Payments</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>       
+<body>
+    <form method="post" action="/payments" class="container ">
+        <div class="form-group">
+          <label for="productName">Enter Product name</label>
+          <input type="text" class="form-control" id="productName" placeholder="Enter Product  name" name="productName">
+        </div>         
+
+        <div class="form-group">
+          <label for="totalAmmount">Enter totalAmmount</label>
+          <input type="number" class="form-control" id="totalAmmount" placeholder="Enter totalAmmount" name="totalAmmount">
+        </div>
+
+          <div class="form-group">
+            <label for="debit">Enter Customer debit ammount</label>
+            <input type="number" class="form-control" id="debit" placeholder="Enter Customer debit ammount" name="debit">
+        </div>
+
+          <div class="form-group">
+            <label for="credit">Enter Customer credit ammount</label>
+            <input type="number" class="form-control" id="credit" placeholder="Enter Customer credit ammount" name="credit">
+          </div>
+
+          <div class="form-group ">
+            <label for="description">Enter description</label>
+            <input type="text" class="form-control" id="description" placeholder="Enter description" name="description">
+          </div>
+
+          <div class="form-group ">
+            <label for="date_of_transaction">Enter Customer date_of_transaction</label>
+            <input type="date" class="form-control" id="date_of_transaction" placeholder="Enter Here" name="date_of_transaction">
+          </div>
+
+          <div class="form-group">
+            <label for="customer_id">Enter customer_id</label>
+            <input type="text" class="form-control" id="customer_id" placeholder="Enter customer_id" name="customer_id">
+          </div>
+          
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+      </form>
+</body>
+</html> 
